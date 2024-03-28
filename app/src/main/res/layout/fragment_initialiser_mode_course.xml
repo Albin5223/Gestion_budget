@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/default_margin">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/SubtitleTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/option_mode_course_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_marginTop="@dimen/default_margin"
+        android:id="@+id/textViewConsigne"
+        style="@style/SubtitleTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/option_mode_course_consigne"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+    <EditText
+        android:id="@+id/input_init_mode_course"
+        style="@style/DefaultTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="@string/option_mode_course_input_title"
+        android:inputType="numberDecimal"
+        android:paddingLeft="@dimen/default_margin"
+        android:layout_marginTop="@dimen/default_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewConsigne" />
+
+    <Button
+        android:layout_marginTop="@dimen/default_margin"
+        android:id="@+id/button_valider_revenu"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/dark_blue"
+        android:text="@string/solde_page_valider"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_init_mode_course" />
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

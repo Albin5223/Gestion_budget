@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/solde_page"
+        android:title="@string/touchBar_solde"
+        android:icon="@drawable/ic_solde" />
+
+    <item
+        android:id="@+id/historique_page"
+        android:title="@string/touchBar_historique"
+        android:icon="@drawable/ic_historique" />
+
+    <item
+        android:id="@+id/ajouter_page"
+        android:title="@string/touchBar_ajouter"
+        android:icon="@drawable/ic_ajouter" />
+
+    <item
+        android:id="@+id/option_page"
+        android:title="@string/touchBar_option"
+        android:icon="@drawable/ic_option" />
+
+    <item
+        android:id="@+id/AVENIR_page"
+        android:title="@string/touchBar_Activite"
+        android:icon="@drawable/ic_attente" />
+</menu>

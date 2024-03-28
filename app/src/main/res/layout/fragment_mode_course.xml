@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/FragmentJaugeSolde"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/touchBarViewModeCourse"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/blue"
+        app:menu="@menu/bottom_navigation_mode_course"
+        app:layout_constraintStart_toStartOf="parent"
+        app:itemTextColor="@drawable/touchbar_historique_color"
+        app:itemIconTint="@drawable/touchbar_historique_color"
+        />
+
+    <Button
+        android:id="@+id/button_mode_course_VoirMesArticles"
+        android:layout_marginTop="@dimen/default_margin"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subtitle_voir_mes_articles"
+        style="@style/SubtitleTextStyle"/>
+
+
+
+
+
+
+</LinearLayout>

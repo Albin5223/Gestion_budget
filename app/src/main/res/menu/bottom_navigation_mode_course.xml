@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ajouter_article"
+        android:title="@string/modeCourseAjouter"
+        android:icon="@drawable/ic_solde" />
+
+    <item
+        android:id="@+id/terminer_mode_course"
+        android:title="@string/modeCourseTerminer"
+        android:icon="@drawable/ic_historique" />
+</menu>

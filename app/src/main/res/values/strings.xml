@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">Budget Gestion</string>
+
+
+    <!--Page solde -->
+    <string name="solde_title">Votre solde</string>
+    <string name="solde_solde">500€</string>
+    <string name="solde_lastDepense">Dernieres depenses</string>
+
+    <!--Page Ajouter -->
+
+    <string name="ajouter_title">Ajouter une dépense</string>
+
+    <string name="ajouter_libelle">Libelle de la dépense</string>
+    <string name="ajouter_Montant">Montant de la dépense</string>
+    <string name="ajouter_Description">Description de la dépense</string>
+    <string name="ajouter_Valider">Valider</string>
+
+    <!--Page ajouter_revenu-->
+    <string name="option_ajouter_salaire">Ajouter un revenu</string>
+    <string name="ajouter_libelle_revenu">Libelle du revenu</string>
+    <string name="ajouter_Montant_revenu">Montant du revenu</string>
+
+    <!--Page Option -->
+
+    <string name="option_title">Option</string>
+    <string name="option_augmenter">Augmenter le solde</string>
+    <string name="option_reinitialiser">Restaurer les donnees</string>
+    <string name="option_effacer_historique">Effacer l\'historique</string>
+    <string name="option_mode_course">Faire mes courses</string>
+
+
+
+
+
+    <!--Page Option mode course  -->
+
+    <string name="option_mode_course_title">Bienvenue dans le mode Course</string>
+    <string name="option_mode_course_title_icon">Mode Course</string>
+    <string name="option_mode_course_consigne">Choisissez votre solde pour faire vos courses et ajoutez le prix de vos achats au fur et à mesure que vous les mettez dans le chariot.</string>
+    <string name="option_mode_course_input_title">@string/solde_page_title</string>
+    <string name="option_mode_course_valider">Commencez mes courses</string>
+
+    <!--Page mode course  -->
+
+
+    <string name="modeCourseTerminer">Terminer</string>
+    <string name="modeCourseAjouter">Ajouter</string>
+
+
+    <string name="mode_course_title">@string/option_mode_course_title_icon</string>
+    <string name="subtitle_mode_course_article">Mes articles</string>
+    <string name="subtitle_voir_mes_articles">Voir mes articles</string>
+    <string name="valider_article">Valider l\'article</string>
+    <string name="noArticle">Aucun article</string>
+
+    <string name="ajouter_libelle_article">Nom de l\'article</string>
+    <string name="ajouter_Montant_article">Montant de l\'article</string>
+    <string name="option_ajouter_article">Ajouter un article</string>
+    <!--Popup detail -->
+
+    <string name="detail_title">Details</string>
+    <string name="detail_date">JJ/MM/AAAA</string>
+    <string name="detail_libelle">Libelle</string>
+    <string name="detail_Montant_title">Montant</string>
+    <string name="detail_Montant">100€</string>
+    <string name="detail_description">Description</string>
+    <string name="detail_libelle_input">Votre libelle</string>
+    <string name="detail_description_input">Aucune description</string>
+
+
+    <!--Page historique -->
+
+    <string name="historique_nouvelle_semaine">Semaine du JJ/MM/AAAA</string>
+    <string name="historique_title">Mon historique</string>
+    <string name="historique_date">JJ/MM/AAAA</string>
+    <string name="historique_libelle">Libelle</string>
+    <string name="historique_Montant">100€</string>
+
+    <string name="historique_depense_title">Mes depenses</string>
+    <string name="historique_revenu_title">Mes revenus</string>
+
+    <!--Page a venir-->
+    <string name="Avenir_title">Page a venir</string>
+    <!--Touch Bar -->
+
+    <string name="touchBar_solde">Soldes</string>
+    <string name="touchBar_historique">Depenses</string>
+    <string name="touchBar_ajouter">Ajouter</string>
+    <string name="touchBar_option">option</string>
+    <string name="touchBar_Activite">Activite</string>
+
+    <!-- Page du choix du solde -->
+
+    <string name="solde_page_title">Choix du solde</string>
+    <string name="solde_page_message">Entrez votre solde initial, celui-ci diminuera au fur et à mesure que vous ajouterez des dépenses</string>
+    <string name="solde_page_valider">Valider le solde</string>
+
+
+    <!-- PopUp valider action -->
+
+    <string name="popUpValiderTitle">Confirmer ?</string>
+    <string name="popUpButtonValiderTitle">Valider</string>
+    <string name="popUpButtonAnnulerTitle">Annuler</string>
+
+    <!--Autre -->
+    <string name="symboleEuro">€</string>
+    <string name="vide"></string>
+    <string name="noDepense">Aucune depense</string>
+    <string name="noRevenu">Aucun revenu</string>
+    <string name="noActivite">Aucune activite</string>
+    <string name="test">A.L.B. Corp.</string>
+    <string name="error_happened">Erreur dans l\'écriture</string>
+    <string name="saved">Sauvegardé</string>
+    <string name="data_deleted">Donnees supprimees</string>
+    <string name="authorization_write_accepted">write authorization accepted</string>
+    <string name="solde_insuffisant">Operation inmpossible,solde insuffisant!</string>
+    <string name="authorization_write_denied">write authorization denied</string>
+    <string name="error_read_happened">Erreur dans la lecture</string>
+    <string name="noMontantPresent">Veuillez entrer un montant</string>
+    <string name="noLibellePresent">Veuillez entrer un libelle</string>
+
+
+</resources>

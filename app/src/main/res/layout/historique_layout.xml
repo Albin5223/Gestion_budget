@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/touchBarViewHistorique"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:itemTextColor="@drawable/touchbar_historique_color"
+        app:itemIconTint="@drawable/touchbar_historique_color"
+        app:menu="@menu/bottom_navigation_historique" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="@dimen/default_margin"
+        android:id="@+id/vertical_RecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+
+    <FrameLayout
+        android:layout_marginTop="@dimen/default_margin"
+        android:id="@+id/noHistorique"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

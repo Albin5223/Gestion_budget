@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/historique_depense_page"
+        android:title="@string/historique_depense_title"
+        android:icon="@drawable/ic_depenses"
+        />
+
+    <item
+        android:id="@+id/historique_revenu_page"
+        android:title="@string/historique_revenu_title"
+        android:icon="@drawable/ic_revenue"
+        />
+</menu>

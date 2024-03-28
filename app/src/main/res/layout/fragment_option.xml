@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/default_margin">
+
+    <Button
+        android:id="@+id/button_augmenter_solde"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/dark_blue"
+        android:text="@string/option_ajouter_salaire"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        />
+
+    <Button
+        android:layout_marginTop="@dimen/default_margin"
+        android:id="@+id/button_mode_course"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/dark_blue"
+        android:text="@string/option_mode_course_title_icon"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        />
+
+    <Button
+        android:layout_marginTop="@dimen/default_margin"
+        android:id="@+id/button_effacer_historique_Transaction"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/dark_blue"
+        android:text="@string/option_effacer_historique"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        />
+
+    <Button
+        android:layout_marginTop="@dimen/default_margin"
+        android:id="@+id/button_reinitialiser"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/dark_blue"
+        android:text="@string/option_reinitialiser"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/default_margin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/input_add_libelle"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        style="@style/DefaultTextStyle"
+        android:paddingLeft="@dimen/default_margin"
+        android:layout_marginTop="@dimen/default_margin"
+        android:hint="@string/ajouter_libelle"/>
+
+    <EditText
+        android:inputType="numberDecimal"
+        android:id="@+id/input_add_montant"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        style="@style/DefaultTextStyle"
+        android:paddingLeft="@dimen/default_margin"
+        android:layout_marginTop="@dimen/default_margin"
+        android:hint="@string/ajouter_Montant"/>
+
+    <EditText
+        android:id="@+id/input_add_description"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        style="@style/DefaultTextStyle"
+        android:paddingLeft="@dimen/default_margin"
+        android:layout_marginTop="@dimen/default_margin"
+        android:hint="@string/ajouter_Description"/>
+
+    <Button
+        android:id="@+id/button_valider"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/ajouter_Valider"
+        android:layout_marginTop="@dimen/default_margin"
+
+        android:textSize="24dp"
+        android:textColor="@color/white"
+        android:background="@color/dark_blue"/>
+
+
+</LinearLayout>
